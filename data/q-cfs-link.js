@@ -330,7 +330,7 @@ FSQ.addQuestions([
     explain: "Dividend income is included in net income, so under US GAAP dividends received are in CFO. Don't confuse them with dividends PAID, which are CFF." },
 
   { id: "cf-056", topic: "cfs", sub: "Classification", difficulty: 1, type: "mc",
-    prompt: "A company uses $200 of excess cash to buy Treasury bills and other marketable securities. Where does this appear?",
+    prompt: "A company uses $200 of excess cash to buy marketable securities (shares and longer-term bonds of other companies). Where does this appear?",
     choices: ["CFO outflow", "CFI outflow", "CFF outflow", "It is not shown because it's still cash-like"],
     answer: 1,
     explain: "Buying marketable securities is an investment of cash, so it is a CFI outflow. Selling them later is a CFI inflow." },
@@ -369,9 +369,9 @@ FSQ.addQuestions([
 
   { id: "cf-063", topic: "cfs", sub: "Classification", difficulty: 2, type: "multi",
     prompt: "Select ALL items that belong in cash flow from FINANCING activities.",
-    choices: ["Proceeds from issuing bonds", "Repayment of a term loan", "Dividends paid", "Repurchase of common stock", "Interest paid (US GAAP)", "Dividends received", "Purchase of Treasury bills", "Proceeds from selling a subsidiary"],
+    choices: ["Proceeds from issuing bonds", "Repayment of a term loan", "Dividends paid", "Repurchase of common stock", "Interest paid (US GAAP)", "Dividends received", "Purchase of marketable securities", "Proceeds from selling a subsidiary"],
     answers: [0, 1, 2, 3],
-    explain: "CFF covers the company's own debt and equity: borrowing, repaying, issuing stock, buying it back and paying dividends. Interest paid and dividends received are CFO; T-bills and selling a subsidiary are CFI." },
+    explain: "CFF covers the company's own debt and equity: borrowing, repaying, issuing stock, buying it back and paying dividends. Interest paid and dividends received are CFO; buying marketable securities and selling a subsidiary are CFI." },
 
   { id: "cf-064", topic: "cfs", sub: "Classification", difficulty: 2, type: "multi",
     prompt: "Select ALL items that belong in cash flow from INVESTING activities.",

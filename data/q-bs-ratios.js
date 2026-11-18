@@ -608,10 +608,10 @@ FSQ.addQuestions([
   sub: "Off-balance-sheet items",
   difficulty: 1,
   type: "multi",
-  prompt: "Which of these do <b>not</b> appear on the balance sheet as their own line? Select all that apply.",
+  prompt: "Which of these are <b>not</b> recorded on the balance sheet? Select all that apply.",
   choices: ["Wages owed but not yet paid","The value of a brand the company built itself","A patent bought from another company","This year’s revenue","The skill of its employees","Inventory"],
   answers: [1,3,4],
-  explain: "An internally built brand and employee talent can’t be measured from a transaction, so they aren’t recorded. Revenue is an income statement (period) item; it reaches the balance sheet only indirectly through retained earnings. Inventory, purchased patents and accrued wages are all balance sheet lines."
+  explain: "An internally built brand and employee talent can’t be measured from a transaction, so they aren’t recorded. Revenue is an income statement (period) item; it reaches the balance sheet only indirectly through retained earnings. Inventory, purchased patents and accrued wages (within accrued expenses) are all recorded on the balance sheet."
 },
 {
   id: "bs-057",
@@ -1078,7 +1078,7 @@ FSQ.addQuestions([
   sub: "Industry balance sheets",
   difficulty: 2,
   type: "match",
-  prompt: "Match each business to the asset that is usually its largest.",
+  prompt: "Match each business to the asset most characteristic of its balance sheet.",
   pairs: [["Commercial bank","Loans to customers"],["Grocery chain","Inventory (and store leases)"],["Electric utility","PP&E (power plants and grid)"],["Serial acquirer of software firms","Goodwill and acquired intangibles"],["Consulting firm","Accounts receivable"]],
   explain: "A balance sheet reflects how the business operates. Banks lend money out, grocers stock shelves, utilities build heavy infrastructure, acquirers pay premiums that become goodwill, and consultants bill clients after doing the work."
 },
